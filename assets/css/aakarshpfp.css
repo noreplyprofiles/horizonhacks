@@ -176,3 +176,9 @@
   margin-right: 25px;
 }
 
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
