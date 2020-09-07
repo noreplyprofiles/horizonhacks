@@ -157,7 +157,7 @@
   background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: LemonMilk;
+  font-family: Azonix;
   font-size: 27px;
   margin-right: 25px;
 }
@@ -167,12 +167,11 @@
   background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: LemonMilk;
+  font-family: Azonix;
   transition: ease-in;
   transition-duration: 0.4s;
   element.style {  color: #ffffff;
-  font-family: LemonMilk;
-  font-size: 27px;
+  font-size: 19px;
   margin-right: 25px;
 }
 
@@ -180,5 +179,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.icon.ion-social-instagram-outline.pfpicon {
+}
+
+.icon.ion-email.pfpicon:hover {
+  font-size: 30px;
+  display: inline-block;
+  color: #ffffff;
+  background-image: linear-gradient(45deg, #ff0f00, #fff500);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
 }
 

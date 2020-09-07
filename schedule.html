@@ -17,8 +17,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta">
     <link rel="stylesheet" href="assets/css/Anurati%20Regular.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap">
+    <link rel="stylesheet" href="assets/css/Azonix.css">
     <link rel="stylesheet" href="assets/css/Capture%20it.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/css/Helvetica.css">
     <link rel="stylesheet" href="assets/css/LemonMilk.css">
     <link rel="stylesheet" href="assets/css/Montserrat.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -48,9 +50,9 @@
 
 <body style="background-color: rgb(0,0,0);">
     <header id="main" class="front">
-        <nav class="navbar navbar-light navbar-expand-md fixed-top shadow-lg navbar-transparency" id="NavPC" style="background-color: #000000;height: 130px;">
+        <nav class="navbar navbar-light navbar-expand-md fixed-top shadow-lg navbar-transparency" id="NavPC" style="background-color: #000000;height: 100px;">
             <div class="container">
-                <div><a href="home.html"><img data-bs-hover-animate="pulse" src="assets/img/logo.png"></a></div><button data-toggle="collapse" class="navbar-toggler text-left shadow" data-target="#navcol-1" style="color: rgba(0,0,0,0);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="color: #000000;"></span></button>
+                <div><a href="home.html"><img data-bs-hover-animate="pulse" src="assets/img/logo.png" style="width: 75px;"></a></div><button data-toggle="collapse" class="navbar-toggler text-left shadow" data-target="#navcol-1" style="color: rgba(0,0,0,0);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="color: #000000;"></span></button>
                 <div
                     class="collapse navbar-collapse" id="navcol-1" style="height: 55px;">
                     <ul class="nav navbar-nav ml-auto">
@@ -65,17 +67,18 @@
             </div>
         </nav>
         <nav class="navbar navbar-light navbar-expand-md navbar-fixed-top navigation-clean-button" id="NavMobile" style="margin-top: 20px;margin-bottom: 20px;background: transparent;">
-            <div class="container"><a href="home.html"><img data-bs-hover-animate="rubberBand" src="assets/img/logo.png" style="width: 100px;"></a>
-                <div><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);border: none;"><span class="sr-only" style="background-color: #ffffff;">Toggle navigation</span><span class="navbar-toggler-icon" style="color: #000000;"></span></button></div>
+            <div class="container"><a href="home.html"><img data-bs-hover-animate="rubberBand" src="assets/img/logo.png" style="width: 75px;"></a>
+                <div><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2" style="background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);border: none;"><span class="sr-only" style="background-color: #ffffff;">Toggle navigation</span><span class="navbar-toggler-icon" style="color: #000000;"></span></button></div>
                 <div
-                    class="collapse navbar-collapse" id="navcol-1" style="background-color: rgb(0,0,0);position: relative;z-index: 1;">
+                    class="collapse navbar-collapse" id="navcol-2" style="background-color: rgb(0,0,0);position: relative;z-index: 1;">
                     <ul class="nav navbar-nav nav-right">
-                        <li class="nav-item" role="presentation" style="background-color: #000000;"><a class="nav-link active text-left" data-bs-hover-animate="pulse" id="navpc" href="home.html" style="background-color: rgb(0,0,0);padding-top: 30px;">Home</a></li>
-                        <li class="nav-item" role="presentation" style="background-color: rgb(0,0,0);"><a class="nav-link active text-left" data-bs-hover-animate="pulse" id="navpc" href="general.html" style="background-color: rgb(0,0,0);">general info</a></li>
-                        <li class="nav-item" role="presentation" style="background-color: rgb(0,0,0);"><a class="nav-link active text-left" data-bs-hover-animate="pulse" id="navpc" href="faq.html" style="background-color: rgb(0,0,0);">faq</a></li>
-                        <li class="nav-item" role="presentation" style="background-color: rgb(0,0,0);"><a class="nav-link active text-left" data-bs-hover-animate="pulse" id="navpc" href="schedule.html" style="background-color: rgb(0,0,0);">schedule</a></li>
-                        <li class="nav-item" role="presentation" style="background-color: rgb(0,0,0);"><a class="nav-link active text-left" data-bs-hover-animate="pulse" id="navpc" href="sponsors.html" style="background-color: rgb(0,0,0);">partners &amp; sponsors</a></li>
-                        <li class="nav-item" role="presentation" style="background-color: rgb(0,0,0);"><a class="nav-link active text-left" data-bs-hover-animate="pulse" id="navpc" href="team.html" style="background-color: rgb(0,0,0);">team</a></li>
+                        <li class="nav-item text-left" role="presentation" style="background-color: #000000;margin-top: 30px;"><a class="nav-link active text-left d-inline-block" data-bs-hover-animate="pulse" id="navpc" href="home.html" style="background-color: rgb(0,0,0);">Home</a></li>
+                        <li class="nav-item text-left" role="presentation" style="background-color: rgb(0,0,0);"><a class="nav-link active d-inline-block" data-bs-hover-animate="pulse" id="navpc" href="general.html" style="background-color: rgb(0,0,0);">general info</a></li>
+                        <li class="nav-item text-left" role="presentation" style="background-color: rgb(0,0,0);"><a class="nav-link active text-left d-inline-block" data-bs-hover-animate="pulse" id="navpc" href="faq.html" style="background-color: rgb(0,0,0);">faq</a></li>
+                        <li class="nav-item text-left" role="presentation" style="background-color: rgb(0,0,0);"><a class="nav-link active text-left d-inline-block" data-bs-hover-animate="pulse" id="navpc" href="schedule.html" style="background-color: rgb(0,0,0);">schedule</a></li>
+                        <li class="nav-item text-left" role="presentation" style="background-color: rgb(0,0,0);"><a class="nav-link active text-left d-inline-block" data-bs-hover-animate="pulse" id="navpc" href="sponsors.html" style="background-color: rgb(0,0,0);">partners &amp; sponsors</a></li>
+                        <li class="nav-item text-left" role="presentation"
+                            style="background-color: rgb(0,0,0);"><a class="nav-link active text-left d-inline-block" data-bs-hover-animate="pulse" id="navpc" href="team.html" style="background-color: rgb(0,0,0);">team</a></li>
                     </ul>
             </div>
             </div>
@@ -83,93 +86,141 @@
     </header>
     <div data-bs-parallax-bg="true" id="cover" class="cover" style="background-image: url(assets/img/354096.png);background-position: center;background-size: cover;">
         <div class="container">
-            <h1 data-aos="fade" data-aos-duration="1000" data-aos-delay="250" id="faq" class="faq">schedule</h1>
+            <h1 data-aos="fade" data-aos-duration="1000" data-aos-delay="250" id="HorizonHacks" class="HorizonHacks">Schedule</h1>
         </div>
     </div>
     <section>
         <div class="container">
-            <h1 class="text-center d-inline-block Schedule" data-aos="zoom-in-up" data-aos-duration="750" data-aos-delay="500" id="Schedule" style="font-size: 63px;color: #ff0000;font-family: ALDITH;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;margin-top: 60px;margin-bottom: 60px;padding: 0px;">SCHEDULE<br></h1>
+            <h1 class="text-center d-inline-block Schedule" data-aos="zoom-in-up" data-aos-duration="750" data-aos-delay="500" data-aos-once="true" id="Schedule" style="font-size: 63px;color: #ff0000;font-family: ALDITH;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;margin-top: 60px;margin-bottom: 30px;padding: 0px;">SCHEDULE<br></h1>
+            <p data-aos="zoom-in" data-aos-duration="750" data-aos-delay="750" data-aos-once="true" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);font-size: 20px;">October 23</p>
             <div class="table-responsive">
                 <table class="table">
                     <thead>
                         <tr>
-                            <th data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1000" id="scheduletitle" class="scheduletitle" style="font-family: 'Anurati Regular';color: rgb(255,255,255);font-size: 26px;width: 264px;">T I M E</th>
-                            <th data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1000" id="scheduletitle-1" class="scheduletitle" style="font-family: 'Anurati Regular';color: rgb(255,255,255);font-size: 26px;width: 149px;">E V E N T</th>
+                            <th data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1000" data-aos-once="true" id="scheduletitle" class="scheduletitle" style="font-family: 'Anurati Regular';color: rgb(255,255,255);font-size: 26px;width: 264px;">T I M E</th>
+                            <th data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1000" data-aos-once="true" id="scheduletitle-1" class="scheduletitle" style="font-family: 'Anurati Regular';color: rgb(255,255,255);font-size: 26px;width: 149px;">E V E N T</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>8:00 AM</strong></td>
-                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Check-In</td>
+                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>7:00 PM</strong></td>
+                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;width: 600px;">Open Stream</td>
                         </tr>
                         <tr>
-                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);"><strong>9:00 AM</strong></td>
-                            <td class="d-inline-block" data-aos="fade" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Opening Ceremony</td>
+                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);width: 510px;"><strong>7:15 PM</strong></td>
+                            <td class="d-inline-block" data-aos="fade" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Opening Ceremony</td>
                         </tr>
                         <tr>
-                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>10:00 AM</strong></td>
-                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Guest Speaker Presentation</td>
-                        </tr>
-                        <tr>
-                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;"><strong>11:00 AM</strong></td>
-                            <td class="d-inline-block" data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Start Hacking!</td>
-                        </tr>
-                        <tr>
-                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>1:00 PM</strong></td>
-                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Lunch</td>
-                        </tr>
-                        <tr>
-                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;"><strong>3:00 PM</strong></td>
-                            <td class="d-inline-block" data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Workshop - Introduction to Java and Golang</td>
-                        </tr>
-                        <tr>
-                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>4:30 PM</strong></td>
-                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Workshop - Dive Into Networking</td>
-                        </tr>
-                        <tr>
-                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;"><strong>6:00 PM</strong></td>
-                            <td class="d-inline-block" data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Workshop - App Development with Kotlin<br></td>
-                        </tr>
-                        <tr>
-                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>9:00 PM</strong></td>
-                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Dinner</td>
-                        </tr>
-                        <tr>
-                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;"><strong>10:00 PM</strong></td>
-                            <td class="d-inline-block" data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Cup Stacking Challenge</td>
-                        </tr>
-                        <tr>
-                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>11:00 PM</strong></td>
-                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Movie</td>
-                        </tr>
-                        <tr>
-                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;"><strong>9:00 AM</strong></td>
-                            <td class="d-inline-block" data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Breakfast</td>
-                        </tr>
-                        <tr>
-                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>10:00 AM</strong></td>
-                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Submission/Judging</td>
-                        </tr>
-                        <tr>
-                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;"><strong>11:00 AM</strong></td>
-                            <td class="d-inline-block" data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Closing Ceremony</td>
-                        </tr>
-                        <tr>
-                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>12:00 PM</strong></td>
-                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Checkout</td>
+                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>8:00 PM</strong></td>
+                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;width: 577px;">Release Topics</td>
                         </tr>
                         <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p data-aos="zoom-in" data-aos-duration="750" data-aos-delay="1250" data-aos-once="true" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);font-size: 20px;">October 24</p>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1000" data-aos-once="true" id="scheduletitle" class="scheduletitle" style="font-family: 'Anurati Regular';color: rgb(255,255,255);font-size: 26px;width: 264px;">T I M E</th>
+                            <th data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1000" data-aos-once="true" id="scheduletitle-1" class="scheduletitle" style="font-family: 'Anurati Regular';color: rgb(255,255,255);font-size: 26px;width: 149px;">E V E N T</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>10:00 AM</strong></td>
+                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Introduction to Hackathon, Explanation of Days Activities</td>
+                        </tr>
+                        <tr>
+                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);"><strong>10:20 AM</strong></td>
+                            <td class="d-inline-block" data-aos="fade" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Guest Speaker Speech</td>
+                        </tr>
+                        <tr>
+                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>11:20 AM</strong></td>
+                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Continue Coding</td>
+                        </tr>
+                        <tr>
+                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;"><strong>1:00 PM</strong></td>
+                            <td class="d-inline-block" data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Lunch with Movie</td>
+                        </tr>
+                        <tr>
+                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>2:30 PM</strong></td>
+                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Workshop - Introduction to Java and Golang<br></td>
+                        </tr>
+                        <tr>
+                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;"><strong>4:00 PM</strong></td>
+                            <td class="d-inline-block" data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Workshop - Dive Into Networking<br></td>
+                        </tr>
+                        <tr>
+                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>5:30 PM</strong></td>
+                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Workshop - App Development with Kotlin<br></td>
+                        </tr>
+                        <tr>
+                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;"><strong>7:00 PM</strong></td>
+                            <td class="d-inline-block" data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Dinner with DJ<br></td>
+                        </tr>
+                        <tr>
+                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>11:00 PM</strong></td>
+                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Movie</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p data-aos="zoom-in" data-aos-duration="750" data-aos-delay="1500" data-aos-once="true" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);font-size: 20px;">October 25</p>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1000" data-aos-once="true" id="scheduletitle" class="scheduletitle" style="font-family: 'Anurati Regular';color: rgb(255,255,255);font-size: 26px;width: 264px;">T I M E</th>
+                            <th data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1000" data-aos-once="true" id="scheduletitle-1" class="scheduletitle" style="font-family: 'Anurati Regular';color: rgb(255,255,255);font-size: 26px;width: 149px;">E V E N T</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>10:00 AM</strong></td>
+                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;width: 600px;">Workshop - TBD</td>
+                        </tr>
+                        <tr>
+                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);width: 510px;"><strong>12:00 PM</strong></td>
+                            <td class="d-inline-block" data-aos="fade" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Lunch with Movie</td>
+                        </tr>
+                        <tr>
+                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>1:30 PM</strong></td>
+                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Workshop - TBD</td>
+                        </tr>
+                        <tr>
+                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;"><strong>4:00 PM</strong></td>
+                            <td class="d-inline-block" data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Submissions</td>
+                        </tr>
+                        <tr>
+                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>4:30 PM</strong></td>
+                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">Judging Begins<br></td>
+                        </tr>
+                        <tr>
+                            <td data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;"><strong>6:00 PM</strong></td>
+                            <td class="d-inline-block" data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Closing Ceremony<br></td>
+                        </tr>
+                        <tr>
+                            <td class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;background: -webkit-linear-gradient(135deg,#ffb800, #ff0000);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><strong>7:00 PM</strong></td>
+                            <td data-aos="zoom-in-left" data-aos-duration="750" data-aos-delay="1750" data-aos-once="true" style="color: rgb(255,255,255);font-family: Montserrat, sans-serif;">End Hackathon<br></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </section>
-    <div class="social-icons" style="background-color: rgb(0,0,0);padding-bottom: 0px;"><a href="https://www.instagram.com/hackshorizon/"><i class="icon ion-social-instagram-outline" data-aos="zoom-in-right" data-aos-duration="500" data-aos-delay="500"></i></a><a href="https://twitter.com/HacksHorizon"><i class="icon ion-social-twitter" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="750"></i></a>
+    <div class="social-icons" style="background-color: rgb(0,0,0);padding-bottom: 0px;"><a href="https://www.instagram.com/hackshorizon/"><i class="icon ion-social-instagram-outline" data-aos="zoom-in-right" data-aos-duration="500" data-aos-delay="500" data-aos-once="true"></i></a><a href="https://twitter.com/HacksHorizon"><i class="icon ion-social-twitter" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="750" data-aos-once="true"></i></a>
         <a
-            href="https://www.facebook.com/hackshorizon"><i class="icon ion-social-facebook" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="750"></i></a><a href="https://www.linkedin.com/company/horizonhacks/"><i class="icon ion-social-linkedin" data-aos="zoom-in-left" data-aos-duration="500" data-aos-delay="500"></i></a></div>
+            href="https://www.facebook.com/hackshorizon"><i class="icon ion-social-facebook" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="750" data-aos-once="true"></i></a><a href="https://www.linkedin.com/company/horizonhacks/"><i class="icon ion-social-linkedin" data-aos="zoom-in-left" data-aos-duration="500" data-aos-delay="500" data-aos-once="true"></i></a></div>
     <div
         class="footer-basic" style="background-color: rgb(0,0,0);">
-        <footer data-aos="fade" data-aos-duration="500" data-aos-delay="1000" style="background-color: #000000;">
+        <footer data-aos="fade" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" style="background-color: #000000;">
             <p class="copyright" style="font-family: Montserrat, sans-serif;">Copyright © 2019 by HorizonHacks. All rights reserved.<br></p>
         </footer>
         </div>
